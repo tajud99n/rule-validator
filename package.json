@@ -1,0 +1,36 @@
+{
+  "name": "rule-validator-api",
+  "version": "1.0.0",
+  "description": "A simple rule validator api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha src/tests/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tajud99n/rule-validator.git"
+  },
+  "author": "Tajudeen Giwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tajud99n/rule-validator/issues"
+  },
+  "homepage": "https://github.com/tajud99n/rule-validator#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "helmet": "4.4.1",
+    "winston": "3.3.3",
+    "winston-daily-rotate-file": "4.5.0"
+  },
+  "devDependencies": {
+    "expect": "26.6.2",
+    "mocha": "8.2.1",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
