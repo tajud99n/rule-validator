@@ -7,8 +7,8 @@ const config = {
         name: process.env.OWNER_NAME,
         github: process.env.GITHUB,
         email: process.env.EMAIL,
-        mobile: process.env.mobile,
-        twitter: process.env.twitter,
+        mobile: process.env.MOBILE,
+        twitter: process.env.TWITTER,
     }
 };
 
